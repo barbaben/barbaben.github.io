@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo PHP e JavaScript</title>
+    <script>
+        // Funzione per indicare che JavaScript è abilitato
+        function jsCheck() {
+            document.getElementById('jsStatus').textContent = "JavaScript è correttamente abilitato!";
+        }
+    </script>
+</head>
+<body onload="jsCheck()">
+    <h1>Pagina di prova PHP e JavaScript</h1>
+
+    <h2>Versione PHP installata:</h2>
+    <p>
+        <?php
+        // Stampa la versione PHP installata sul server
+        echo 'PHP version: ' . phpversion();
+        ?>
+    </p>
+
+    <h2>Controllo JavaScript:</h2>
+    <p id="jsStatus" style="color: red;">JavaScript non è abilitato o non funziona correttamente.</p>
+</body>
+</html>
