@@ -1,0 +1,113 @@
+/* === Global Slide Styling === */
+.reveal {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  color: #2a2a2a;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+/* === Titolo principale === */
+.reveal h1 {
+  font-size: 1.8em;
+  color: #005f8f;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+
+/* === Titoli secondari === */
+.reveal h2 {
+  font-size: 1.5em;
+  color: #0077aa;
+  margin-bottom: 0.2em;
+  text-align: left;
+}
+
+/* === Titoli di terzo livello === */
+.reveal h3 {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 0.2em;
+  text-align: left;
+}
+
+/* === Paragrafi === */
+.reveal p {
+  font-size: 1em;
+  margin-bottom: 0.6em;
+  text-align: left;
+}
+
+/* === pedice === */
+.reveal h4 {
+  font-size: 0.8em;
+  color: #444;
+  margin-bottom: 0.2em;
+  text-align: left;
+}
+
+/* === Elenchi puntati === */
+.reveal ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  text-align: left;
+  margin-bottom: 1em; /* ← aggiunto per spazio dopo */
+}
+
+/* === Elenchi numerati === */
+.reveal ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+  text-align: left;
+  margin-bottom: 1em; /* ← aggiunto per spazio dopo */
+}
+
+/* === Immagini === */
+.reveal img {
+  max-width: 100%;
+  max-height: 400px;
+  display: block;
+  margin: 1em auto;
+}
+
+/* === Grassetto === */
+.reveal strong, .reveal b {
+  font-weight: bold;
+  color: #000;
+}
+
+/* === Corsivo === */
+.reveal em, .reveal i {
+  font-style: italic;
+  color: #444;
+}
+
+/* === Classi personalizzate === */
+.reveal .centered {
+  text-align: center;
+}
+
+/* === Tabelle === */
+.reveal table {
+  margin: 1em auto;
+  width: 95%;
+  font-size: 0.7em; /* Font più piccolo nelle tabelle */
+  border-collapse: collapse;
+}
+
+.reveal table th,
+.reveal table td {
+  padding: 0.5em 0.8em;
+  border: 2px solid #595C5D;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.reveal table th {
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+
+.reveal table tr:hover {
+  background-color: rgba(66, 175, 250, 0.1);
+}
